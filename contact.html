@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Icon -->      
+  <link rel="icon" type="image/png" sizes="32x32" href="#">
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap" rel="stylesheet">
+  <!-- Normalizes differences between browsers -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+  <title>Pianist Seohyang Contact</title>
+</head>
+<div class="back-ground">
+  <header>
+    <div class="header__img">
+      <div class="container--header">
+        <button class="nav-toggle" aria-label="open navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav ">
+            <ul class="nav__list nav__list--primary ">
+                <li  class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="perform.html" class="nav__link">Performances</a></li>
+            </ul>
+            <ul class="nav__list nav__list--secondary">
+                    <li class="nav__item"><a href="concerts.html" class="nav__link">Concerts</a></li>
+                <li class="nav__item">
+                  <a href="contact.html" class="nav__link nav__link--button">Contact</a>
+              </li>
+            </ul>
+        </nav>
+        <div class="hero container row">
+            <p class="hero__text">Pianist</p>
+            <h1 class="hero__title txt-clr-lightest">Seohyang Oh</h1>
+        </div>
+      </div>
+  </header>
+  <body class="contact">
+    <main>
+        <section id="media__links__large">
+            <div class="container">
+                <ul class="media__list">
+                    <li class="media__item">
+                        <a class="icon instagram"  href="">
+                        <img src="https://assets.codepen.io/5760928/instagram-square.png" alt="Instagram Icon" />
+                        </a>
+                    </li>
+                    <li class="media__item">
+                      <a class="icon facebook"  href="https://www.facebook.com/profile.php?id=100087364207263">
+                        <img class="icon--large" src="https://assets.codepen.io/5760928/facebook+%282%29.png" alt="Facebook icon" />
+                    </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+              <form  class="contact__form" action="https://formsubmit.co/el/kuxeku" method="POST" id="contact__form">
+                <div class="form">
+                  <h3 class="section-title section-title--dark">Get in touch</h3></div>
+                <div class="form">
+                  <input class="ct__form ct__name__form" type="text" placeholder="Name" name="name" required>
+                </div>
+                <div class="form">
+                  <input class="ct__form ct__email__form" type="email" placeholder="Email" name="email" required>
+                </div>
+                <div class="form">
+                  <textarea class="ct__form ct__message__form" name="Message" cols="30"rows="10" placeholder="Message" required></textarea>
+                  <input type="hidden" name="_blacklist" value="spammy pattern, banned term, phrase">
+                  <input type="text" name="_honey">
+                  <input type="hidden" name="_subject" value="New submission!">
+                  <input type="hidden" name="_captcha" value="false">
+                </div>
+                <div class="form">
+                  <input class="ct__form ct__submit" type="submit" name="contact_submit" value="Send Message">
+                  <input type="hidden" name="_next" value="contact.html">
+                </div>
+              </form>
+            </div>
+        </section>
+    </main>
+  </body>
+  <script src="main.js"></script>
+  <footer> 
+      <p class="legal__text">
+        <small>&copy; Copyright 2022, Markham Webworks</small> 
+      </p>
+  </footer> 
+</div><!--Background img-->
+
+</html>
